@@ -12,7 +12,7 @@ return {
     },
   },
   opts = {
-    open_for_directories = false, -- Чтобы Oil остался проводником для папок по умолчанию
+    open_for_directories = true, -- Чтобы Oil остался проводником для папок по умолчанию
     use_relative_paths = true,
       keymaps = {
           show_help = "~",

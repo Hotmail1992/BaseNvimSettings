@@ -13,5 +13,9 @@ return {
       "regex", -- ОБЯЗАТЕЛЬНО ДОБАВЬТЕ СЮДА
     },
     highlight = { enabled = true },
+    disable = { 
+      "text",
+      "plaintex"
+    },
   },
 }
