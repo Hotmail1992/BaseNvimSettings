@@ -26,3 +26,5 @@ vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], {noremap = true})
 
 -- Убрать подсветку после поиска
 map("n", "<Esc>", ":noh<CR>", "Clear Highlight")
+
+

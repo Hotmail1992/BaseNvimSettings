@@ -8,6 +8,8 @@ vim.opt.shellslash = false
 vim.g.netrw_localcopycmd = 'xcopy'
 vim.g.netrw_localcopydircmd = 'xcopy /e /i /y'
 
+
+vim.g.have_nerd_font = true
 -- Синхронизируем директории, чтобы пути всегда были актуальны
 vim.g.netrw_keepdir = 0
 
@@ -28,6 +30,7 @@ opt.smartcase = true
 
 opt.termguicolors = true
 opt.wrap = true
+opt.cursorline = true
 
 opt.undofile = true
 opt.swapfile = false
@@ -35,5 +38,7 @@ opt.fileencoding = "utf-8"
 opt.clipboard = "unnamedplus"
 
 opt.timeoutlen = 500
+
+
 
 vim.cmd([[command! SystemOpen execute '!start "" ' . shellescape(expand('%:p'))]])
